@@ -1,3 +1,27 @@
+快速使用tmux
+=====
+该配置来自 [gpakosz/.tmux](https://github.com/gpakosz/.tmux)，我对`.tmux.conf.local`稍作修改：
+
+ - Open vi mode
+ - Bind C-z to replace C-b
+
+配置
+======
+
+运行以下命令：
+```
+$ cd
+$ git clone https://github.com/gpakosz/.tmux.git
+$ ln -s -f .tmux/.tmux.conf
+$ cp .tmux/.tmux.conf.local .
+```
+编辑 `~/.bashrc`，添加：
+```
+export TERM=xterm-256color
+```
+
+=====
+
 .tmux
 =====
 
