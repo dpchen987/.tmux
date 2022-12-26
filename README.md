@@ -22,8 +22,9 @@ export TERM=xterm-256color
 ```
 修改的~/.tmux.conf配置文件有如下两种方式可以令其生效：
 
-restart tmux。
-在tmux窗口中，先按下Ctrl+b指令前缀，然后按下系统指令:，进入到命令模式后输入source-file ~/.tmux.conf，回车后生效。
+1.restart tmux。
+2.在tmux窗口中，先按下Ctrl+b指令前缀，然后按下系统指令:，进入到命令模式后输入source-file ~/.tmux.conf，回车后生效。
+
 =====
 
 .tmux
